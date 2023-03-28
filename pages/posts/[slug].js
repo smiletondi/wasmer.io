@@ -15,6 +15,7 @@ export default function PostPage({ post, morePosts, preview }) {
   const domainUrl = "https://wasmer.io";
   const ogImageUrl = `${domainUrl}${post?.ogImage?.url}`;
 
+  console.log("🚀 ~ file: [slug].js:18 ~ PostPage ~ ogImageUrl:", ogImageUrl)
   return (
     <>
       <Head>
